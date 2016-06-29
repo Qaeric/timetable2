@@ -15,8 +15,8 @@ public class Entry extends JFrame
 	private static final long serialVersionUID = -1180069535459922422L;
 	protected JLabel jLabel1=new JLabel("Subject name:");
 	protected JLabel jLabel2=new JLabel("Room:");
-    protected JTextArea subjectField=new JTextArea();
-    protected JTextArea classField=new JTextArea();
+    public JTextArea subjectField=new JTextArea();
+    public JTextArea classField=new JTextArea();
     protected JButton acceptButton=new JButton();
     
     protected Subject subject;

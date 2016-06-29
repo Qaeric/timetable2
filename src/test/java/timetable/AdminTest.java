@@ -2,6 +2,9 @@ package timetable;
 
 import static org.junit.Assert.*;
 
+import java.awt.event.MouseListener;
+import java.nio.file.FileSystems;
+
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
@@ -11,6 +14,8 @@ import org.junit.Test;
 import timetable.client.admin.AdminController;
 import timetable.client.admin.AdminModel;
 import timetable.client.admin.AdminView;
+import timetable.client.admin.Entry;
+import timetable.server.Server;
 
 public class AdminTest
 {
@@ -56,6 +61,25 @@ public class AdminTest
 		assertEquals(result.getHour(), subject.getHour());
 		assertEquals(result.getName(), subject.getName());
 		assertEquals(result.getRoom(), subject.getRoom());
+	}
+	
+	@Test
+	public void shouldSetFieldsInEntry()
+	{
+		//given
+		Entry entry = new Entry();
+		Subject subject = new Subject(0, 0, "fizyka", 12);
+		
+		//when
+		String resultName = "fizyka";
+		int resultRoom = 12;
+		
+		//then
+		entry.modify(subject);
+		String name = entry.subjectField.getText();
+		int room = Integer.parseInt(entry.classField.getText());
+		assertEquals(resultName, name);
+		assertEquals(resultRoom, room);
 	}
 
 }

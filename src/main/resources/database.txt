@@ -1,0 +1,23 @@
+20-6-2016, 1, matematyka, 15
+20-6-2016, 3, informatyka, 27
+23-6-2016, 1, grafika, 3
+23-6-2016, 2, grafika, 3
+24-6-2016, 1, fizyka, 12
+24-6-2016, 3, teoria jezykow formalnych, 5
+27-6-2016, 1, w fiz, 1
+27-6-2016, 2, angielski, 12
+14-6-2016, 2, Teoria Jezykow Formalnych, 79
+14-6-2016, 4, Programowanie, 15
+14-6-2016, 3, Podstawy Fizyki, 26
+14-6-2016, 5, Programowanie, 15
+13-6-2016, 2, Wychowanie Fizyczne, 92
+13-6-2016, 3, Jezyk Angielski, 78
+6-6-2016, 2, WychowanieFizyczne, 92
+6-6-2016, 3, Jezyk Angielski, 78
+7-6-2016, 6, Projekt Bazodanowy, 12
+7-6-2016, 2, Teoria Jezykow Formalnych, 79
+7-6-2016, 3, Podstawy Fizyki, 26
+9-6-2016, 2, Grafika, 11
+9-6-2016, 3, Jezyk Angielski, 78
+10-6-2016, 2, Teoria Gier, 0
+10-6-2016, 3, Teoria Jezykow Formalnych, 16
